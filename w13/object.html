@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            var player = {
+                Number : "7",
+                position : "MF",
+                name : "on Heung-min",
+                club : "Tottenham Hotspur",
+                showAll :function(){
+                    for (var key in this){
+                        if(key != 'showAll')
+                        console.log(this[key]);
+                    }
+                }
+            };
+        </script>
+    </body>
+</html>
