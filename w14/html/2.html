@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>베이킹</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/master.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<style>
+  #active {
+    color: brown;
+  }
+  p, h1 {
+    text-align: center;
+  }
+  span {
+  text-decoration:underline;
+  }
+</style>
+</head>
+
+<body style="background-color: black; color: white;">
+  <h1><a href="index.html">쉽고 간단한 홈 베이킹 레시피</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">핫초콜릿</a></li>
+      <li><a href="2.html">초콜릿 케이크</a></li>
+      <li><a href="3.html">스프레드</a></li>
+    </ol>
+    <div>
+      <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
+      <h2>핫 초콜릿 만들기</h2>
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1689&q=80" width="30%">
+      
+      <p style="font-size: 30px"><strong>초콜릿 케이크</strong></p>
+    <p><span>115g</span> 무가당 연유<br><span>40g</span> 글루코스<br><span>190g</span> 카라멜리아 36%<br><span>40g</span> 아몬드 & 헤이즐넛 프랄리네 50%</p>
+
+    <p>무가당 연유와 글루코스를 함께 데우세요.<br>녹인 카라멜리아와 천천히 합하여 좋은 에멀전이 형성되도록 합니다.<br>아몬드와 헤이즐넛 프랄리네를 더합니다.<br>혼합물을 냄비에 부어 최대 2주간 냉장고에 보관하세요.</p>
+
+      <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
+    </div>
+  </div>
+</body>
+</html>
